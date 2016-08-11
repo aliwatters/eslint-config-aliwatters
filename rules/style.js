@@ -38,10 +38,6 @@ module.exports = {
     // http://eslint.org/docs/rules/id-blacklist
     'id-blacklist': 0,
 
-    // this option enforces minimum and maximum identifier lengths
-    // (variable names, property names etc.)
-    'id-length': [1, {'min': 3, 'exceptions': ['_'], 'properties': 'never'}],
-
     // require identifiers to match the provided regular expression
     'id-match': 0,
 

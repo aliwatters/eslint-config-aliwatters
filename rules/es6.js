@@ -77,9 +77,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-useless-constructor
     'no-useless-constructor': 2,
 
-    // require let or const instead of var
-    'no-var': 2,
-
     // require method and property shorthand syntax for object literals
     // http://eslint.org/docs/rules/object-shorthand
     'object-shorthand': [2, 'always', {

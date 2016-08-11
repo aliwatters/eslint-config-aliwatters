@@ -16,8 +16,8 @@ module.exports = {
     // require return statements to either always or never specify values
     'consistent-return': 0,
 
-    // specify curly brace conventions for all control statements
-    'curly': ['error', 'multi'],
+    // specify curly brace conventions for all control statements, except one-liners
+    'curly': ['error', 'multi-line'],
 
     // require default case in switch statements
     'default-case': 2,

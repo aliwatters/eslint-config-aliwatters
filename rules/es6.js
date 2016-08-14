@@ -77,6 +77,9 @@ module.exports = {
     // http://eslint.org/docs/rules/no-useless-constructor
     'no-useless-constructor': 2,
 
+    // require let or const instead of var
+    'no-var': 1,
+
     // require method and property shorthand syntax for object literals
     // http://eslint.org/docs/rules/object-shorthand
     'object-shorthand': [2, 'always', {
@@ -99,10 +102,6 @@ module.exports = {
 
     // suggest using the spread operator instead of .apply()
     'prefer-spread': 0,
-
-    // suggest using template literals instead of string concatenation
-    // http://eslint.org/docs/rules/prefer-template
-    'prefer-template': 2,
 
     // disallow generator functions that do not have yield
     'require-yield': 0,
